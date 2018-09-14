@@ -1,0 +1,31 @@
+.checkbox {
+    display: block;
+    margin-bottom:$space;
+}
+
+.checkbox__box {
+    margin-right: $space/2;
+}
+
+.item {
+    background-color: $light-grey;
+    border: 1px solid darken($light-grey, 8%);
+    padding: $space;
+    margin-bottom:$space;
+}
+
+.item--none {
+    font-size:1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.item--none > p {
+    color:#333;
+    font-style: italic;
+    margin: 0;
+}
+
+.item__message {
+    color: #333;
+}

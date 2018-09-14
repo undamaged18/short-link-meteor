@@ -1,0 +1,44 @@
+.button {
+    background-color: $button-bg;
+    border:unset;
+    color:$button-text-color;
+    cursor: pointer;
+    padding: $default-spacing;
+    text-transform: uppercase;
+    font-size: $base-font-size;
+    margin-bottom: $space;
+    line-height: 1.2;
+}
+
+.button--link {
+    display: inline-block;
+    text-decoration: none;   
+}
+
+.button--pill {
+    background-color: transparent;
+    color: $button-pill-color;
+    border: 1px solid $button-pill-color;
+    margin: 0.3rem;
+    padding: 0.3rem 0.8rem;
+}
+
+.button--secondary {
+    background-color: $light-grey;
+    border: 1px solid $grey;
+    color: $mid-grey;
+}
+
+.button--logout {
+    border: unset;
+    color: white;
+    background-color: transparent;
+    font-size: 1.4rem;
+    padding: 0;
+    margin:0;
+    cursor: pointer;
+}
+
+.button--logout:hover {
+    text-decoration: underline;
+}
