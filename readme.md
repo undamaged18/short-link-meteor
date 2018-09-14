@@ -2,5 +2,5 @@
 
 This is a link shortener application using React/Meteor
 
-##Authors
+## Authors
 Connor Cordell
