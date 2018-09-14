@@ -24,7 +24,7 @@ export default class AddLinks extends React.Component {
 
         Meteor.call('links.create', url, (err, res) => {
             if (!err) {
-                this.onModelClose.bind(this)
+                this.setState({isOpen: false, url: '', error: ''});
             } else {
                 this.setState({error: err.reason});
             }
